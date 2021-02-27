@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <!--<Logo />-->
       <h1 class="title">
         nuxt-example-app
       </h1>
@@ -22,17 +22,20 @@
         >
           GitHub
         </a>
+        <nuxt-link to="/users" class="button--grey">
+           Users
+        </nuxt-link>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+  export default {}
 </script>
 
 <style>
-.container {
+/*.container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -69,5 +72,5 @@ export default {}
 
 .links {
   padding-top: 15px;
-}
+}*/
 </style>
